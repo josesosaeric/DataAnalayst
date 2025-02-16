@@ -29,8 +29,13 @@
 
 <br>
 
+
 <p align="center">
-  <img src="https://img.shields.io/badge/-Power%20BI-05122A?style=flat&logo=powerbi">&nbsp;
+  <a href="https://github.com/josesosaeric/DataAnalayst/blob/main/ProyectoPowerBimd.md" target="_blank">
+    <img src="https://img.shields.io/badge/-Power%20BI-05122A?style=flat&logo=powerbi">
+  </a>
+</p>
+
   <img src="https://img.shields.io/badge/-SQL-05122A?style=flat&logo=postgresql">&nbsp;
   <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python">&nbsp;
   <img src="https://img.shields.io/badge/-DAX-05122A?style=flat&logo=powerbi">&nbsp;
@@ -38,9 +43,10 @@
   <img src="https://img.shields.io/badge/-Tableau-05122A?style=flat&logo=tableau">
 </p>
 
+
 <br>
 
-- 🔭 Actualmente trabajo en <a href="https://phoenix.tech/griffyn/" target="blank">Griffyn Robotech Private Limited</a>
+- 🔭 Actualmente trabajo en *Prisma Sistemas de Información*
 
 - 🌱 Estoy trabajando en la optimización de reportes en Power BI y SQL.
 
@@ -48,13 +54,13 @@
 
 - 🌱 Aprendiendo técnicas avanzadas de modelado de datos y ETL.
 
-- 📝 Escribo artículos regularmente en [https://dev.to/100rabhcsmc](https://dev.to/100rabhcsmc)
+- 📝 Escribo artículos regularmente en 
 
 - 💬 Pregúntame sobre **Power BI, SQL y modelado de datos**
 
 - 📫 Cómo contactarme: **Josesosaeric@gmail.com**
 
-- 📄 Conoce más sobre mi experiencia <a href="CV_Eric_Sosa.pdf" target="blank">Currículum</a>
+- 📄 Conoce más sobre mi experiencia <a href="CV_Eric_Sosa.pdf" target="blank">CV</a>
 
 <br>
 
