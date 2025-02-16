@@ -1,71 +1,54 @@
-![Aditya Vikram Singh Banner](https://github.com/josesosaeric/DataAnalayst/blob/main/Banner%20Para%20LinkedIn%20Desarrollador%20De%20Software%20Moderno%20Negro%20(2).png)
-
-
-<!-- ## 👋 &nbsp;Hey there! I'm Aditya -->
-<img alt="Night Coding" src="./assets/Hand%20Wave.gif" width='40' align="left"/><h2>¡Hola! Soy Eric Sosa</h2>
-
-<!-- ## 👋 &nbsp;¡Hola! Soy Aditya -->
-
-### 👨🏻‍💻 &nbsp;Sobre mí
-
-💡 &nbsp;Me especializo en inteligencia de negocios y análisis de datos con Power BI y SQL.
-
-🎓 &nbsp;Soy especialista en inteligencia de negocios con experiencia en modelado de datos, reportes y visualización de datos.
-
-🌱 &nbsp;Estoy aprendiendo más sobre arquitectura de datos, optimización de consultas SQL y machine learning.
-
-✍️ &nbsp;En mi tiempo libre, disfruto explorando nuevas tecnologías y escribiendo sobre análisis de datos.
-
-💬 &nbsp;No dudes en contactarme para consultoría en inteligencia de negocios o discusiones sobre análisis de datos.
-
-✉️ &nbsp;Puedes enviarme un correo a Josesosaeric@gmail.com y responderé lo antes posible.
-
-<img alt="Night Coding" src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" align="right"/>
-
+# Proyectos-Power-BI
+# 📊 **Proyectos realizados en Power BI** 📊
 
 <br>
 
-### 🛠 &nbsp;Stack Tecnológico  
+📈 Proyecto 01 - Ventas Globales.
+
+![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/EvolucionVentaMargenRP1.png)
 
 <br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Power%20BI-05122A?style=flat&logo=powerbi">&nbsp;
-  <img src="https://img.shields.io/badge/-SQL-05122A?style=flat&logo=postgresql">&nbsp;
-  <img src="https://img.shields.io/badge/-Python-05122A?style=flat&logo=python">&nbsp;
-  <img src="https://img.shields.io/badge/-DAX-05122A?style=flat&logo=powerbi">&nbsp;
-  <img src="https://img.shields.io/badge/-Excel-05122A?style=flat&logo=microsoft-excel">&nbsp;
-  <img src="https://img.shields.io/badge/-Tableau-05122A?style=flat&logo=tableau">
-</p>
+![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/TopClientesProductosRP1.png)
 
 <br>
 
-- 🔭 Actualmente trabajo en <a href="https://phoenix.tech/griffyn/" target="blank">Griffyn Robotech Private Limited</a>
+#### *Objetivo del Proyecto:*
+El objetivo principal fue analizar los datos de ventas a nivel mundial de una empresa internacional para responder a cuatro preguntas clave relacionadas con el margen de ganancia, los clientes más importantes, los productos más vendidos y el desempeño mensual de las ventas en los años 2018 y 2019.
 
-- 🌱 Estoy trabajando en la optimización de reportes en Power BI y SQL.
+#### *Herramientas Utilizadas:*
+- *Power BI*: Para la creación de visualizaciones y dashboards interactivos.
+- *DAX (Data Analysis Expressions)*: Para la creación de medidas y columnas calculadas.
+- *Excel*: Para la revisión inicial de los datos.
 
-- 🤝 Disponible para proyectos freelance de inteligencia de negocios.
+#### *Proceso de Análisis:*
+1. *Preparación de Datos:*
+   - Cargué los datos en Power BI y verifiqué la estructura de las tablas y sus relaciones.
+   - Identifiqué problemas en los datos, como fechas mal formateadas y clientes sin identificar (índice -1), y los corregí utilizando fórmulas de DAX.
 
-- 🌱 Aprendiendo técnicas avanzadas de modelado de datos y ETL.
+2. *Visualizaciones y Dashboards:*
+   - Creé dos dashboards principales:
+     - *Evolución de Ventas y Margen*: Enfocado en comparar el margen de ganancia y las ventas entre 2018 y 2019, con segmentaciones por país, canal de venta y fecha.
+     - *Top Clientes y Productos*: Enfocado en identificar los clientes que más compraron en 2018 y los 5 productos más vendidos por cada uno.
 
-- 📝 Escribo artículos regularmente en [https://dev.to/100rabhcsmc](https://dev.to/100rabhcsmc)
+3. *Respuestas a las Preguntas Clave:*
+   - *Margen de Ganancia por Canal*: Calculé el margen de ganancia (precio total menos costo total) por canal (Internet y Reseller) para cada año. Encontré que el canal Internet generó mayores ganancias en comparación con Reseller.
+   - *Clientes que Más Compraron en 2018*: Identifiqué a los clientes con mayores ventas por país y los 5 productos más comprados por cada uno. Por ejemplo, en Canadá, el cliente Samantha Jenkins compró 41 unidades, siendo el producto más vendido el "Patch Kit/8 Patches".
+   - *Mes de Mayor Venta en 2019*: Determiné que noviembre fue el mes con mayores ventas en 2019, con un total de $716,226.67.
+   - *Comparación de Ventas 2018 vs. 2019*: Todos los meses de 2019 superaron en ventas a los de 2018, lo que indica un crecimiento positivo en el negocio.
 
-- 💬 Pregúntame sobre **Power BI, SQL y modelado de datos**
+#### *Desafíos y Soluciones:*
+- *Problemas con Fechas*: Power BI no reconocía la columna de fechas original, por lo que creé una nueva columna utilizando DAX para extraer el año, mes y día de un índice numérico.
+- *Clientes sin Identificar*: El 33.42% de los clientes tenían un índice -1, lo que dificultaba su identificación. Decidí trabajar con los datos disponibles y segmentar por canal para no perder información relevante.
 
-- 📫 Cómo contactarme: **Josesosaeric@gmail.com**
+#### *Resultados Finales:*
+- *Dashboard Interactivo*: Creé un dashboard interactivo que permite a los usuarios explorar los datos por país, canal de venta y período de tiempo.
+- *Conclusiones Claras*: Identifiqué tendencias clave, como el crecimiento del canal Internet y los productos más populares entre los clientes principales.
 
-- 📄 Conoce más sobre mi experiencia <a href="CV_Eric_Sosa.pdf" target="blank">Currículum</a>
-
-<br>
-
-### 🤝🏻 &nbsp;Conéctate conmigo
-
-<p align="center">
-<a href="https://www.linkedin.com/in/eric-jose-sosa-centeno-028880267/"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/eric-jose-sosa-centeno-028880267/"> <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/> </a>
-
-
-</p>
+#### *Habilidades Demostradas:*
+- *Manejo de Power BI*: Creación de visualizaciones avanzadas, uso de segmentaciones y manejo de relaciones entre tablas.
+- *Análisis de Datos*: Identificación de problemas en los datos y aplicación de soluciones técnicas.
+- *Comunicación de Resultados*: Presentación clara y visual de los hallazgos, con gráficos y tablas que facilitan la comprensión de los datos.
 
 
 Last Edited on: 15/12/2024
