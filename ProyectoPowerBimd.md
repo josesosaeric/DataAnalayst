@@ -3,7 +3,91 @@
 
 <br>
 
-📈 Proyecto 01 - Ventas Globales.
+📈 Proyecto 01 - Streaming Show TV.
+
+![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/Home.png)
+
+<br>
+
+![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/Modelo%20Relacional.png)
+
+<br>
+
+
+#### *Objetivo del Proyecto:*
+Analizar el catálogo de contenidos de Netflix a nivel global, permitiendo explorar de manera interactiva la cantidad de shows, películas y series distribuidos por país, tipo, categoría, año, y otros atributos clave. El objetivo es brindar una visión clara del alcance, la diversidad y la evolución del contenido en la plataforma.
+
+#### *Herramientas Utilizadas:*
+- Power BI Desktop: Para la visualización de datos, modelado y creación del dashboard interactivo.
+- Power Query: Para la preparación, limpieza y transformación de los datos.
+- DAX: Para la creación de medidas e indicadores personalizados.
+- Interacción con botones y bookmarks: Para navegar de forma dinámica entre vistas y secciones del informe.
+
+#### *Proceso de Análisis:*
+1. *Preparación de Datos:*
+  - Transformación y limpieza de la base de datos de Netflix utilizando Power Query.
+  - Separación entre dimensiones y hechos para mantener un modelo estructurado.
+  - Creación de indicadores clave para análisis agregados.
+  - Identificación y eliminación de duplicados (si los había en reparto, directores, títulos, etc.).
+
+2. *Visualizaciones y Dashboards:*
+ **Panel principal (Home)** con KPIs que muestran:
+- Total de shows
+- Total de películas
+- Total de series
+- Total de países con contenido
+
+
+**Gráficos destacados:**
+- Gráfico de anillo: muestra la proporción de "Movies" vs "TV Shows".
+- Histograma por dimensiones: permite ver la distribución del contenido por atributos como país, categoría o tipo.
+- Mapa mundial: visualiza los países con más presencia de shows en la plataforma.
+- Matriz detallada: permite ver la tendencia por año, cruzando dimensiones (ej. país, tipo) con indicadores como cantidad de títulos o directores.
+
+**Panel lateral** de navegación con botones interactivos:
+- Reseteo: regresa a la vista inicial del dashboard.
+- Indicadores: muestra una lista desplegable con los indicadores clave.
+- Dimensiones: muestra las diferentes dimensiones disponibles.
+- Filtro: activa una sección para filtrar los datos por distintos campos.
+- Regresar: disponible en cada sección para volver a la vista anterior.
+
+
+<br>
+
+![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/Indicadores.png)
+
+<br>
+
+
+3. *Respuestas a las Preguntas Clave:*
+   - ¿Qué tipo de contenido (películas o series) predomina en la plataforma?
+   - ¿En qué países hay más títulos disponibles?
+   - ¿Cuál es la categoría con mayor cantidad de shows?
+   - ¿Cuáles son los directores y actores más frecuentes?
+   - ¿Cómo ha sido la evolución del catálogo de Netflix a lo largo de los años?
+
+#### *Desafíos y Soluciones:*
+Visualizar múltiples dimensiones e indicadores sin saturar la interfaz	Implementación de un panel interactivo con botones que permite cambiar entre vistas y mantener el orden visual
+Mostrar datos geográficos con precisión	Uso de un mapa para representar la cantidad de shows por país con color y tamaño
+Navegación intuitiva entre vistas y secciones	Uso de bookmarks (marcadores) y botones para facilitar la experiencia del usuario final
+
+#### *Resultados Finales:*
+- Un dashboard intuitivo y profesional que permite entender la magnitud y diversidad del catálogo de Netflix.
+- Visualizaciones dinámicas que permiten a cualquier usuario responder sus propias preguntas filtrando por país, tipo, categoría, etc.
+- Herramienta útil tanto para usuarios curiosos como para posibles análisis de mercado, contenido o distribución geográfica.
+
+#### *Habilidades Demostradas:*
+- Modelado de datos estructurado (hechos y dimensiones)
+- Creación de KPIs con DAX
+- Visualización efectiva de información en Power BI
+- Uso avanzado de bookmarks y botones para navegación dinámica
+- Enfoque en la experiencia del usuario (UX)
+- Análisis geográfico con mapas
+- Diseño limpio y profesional
+
+
+
+📈 Proyecto 02 - Ventas Globales.
 
 ![Vista2](https://github.com/josesosaeric/DataAnalayst/blob/main/EvolucionVentaMargenRP1.png)
 
